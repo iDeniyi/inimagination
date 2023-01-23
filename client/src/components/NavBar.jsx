@@ -11,15 +11,15 @@ const NavBar = () => {
             link: "home",
         },
         {
-            id: 1,
+            id: 2,
             link: "About Me",
         },
         {
-            id: 1,
+            id: 3,
             link: "Portfolio",
         },
         {
-            id: 1,
+            id: 4,
             link: "Contact",
         },
     ];
