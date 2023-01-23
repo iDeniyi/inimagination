@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/hero2.JPG";
 import { IoRocket } from "react-icons/io5";
 
 const Home = () => {
