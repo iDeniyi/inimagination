@@ -12,11 +12,11 @@ const Home = () => {
                     <p className="text-gray-300 py-4">
                         Hey! Welcome to the inimagination...
                     </p>
-                    <h2 className="text-6xl font-signature py-4">
+                    <h2 className="text-6xl font-signature pt-4 pb-2">
                         I am Inioluwa
                     </h2>
-                    <h2 className="text-lime-200">
-                        Fullstack Developer and Computer Engineer
+                    <h2 className="text-lime-200 tracking-wide hover:tracking-widest">
+                        Fullstack Developer
                     </h2>
                     <p className="text-gray-300 py-4 max-w-md">
                         This is my portfolio, where you get to see interesting
