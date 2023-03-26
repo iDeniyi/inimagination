@@ -34,11 +34,7 @@ const About = () => {
                     I have worked on a number of projects that showcase my
                     software development skills like designing and developing my
                     own portfolio website using JavaScript, React, HTML, CSS,
-                    and Tailwind. Additionally, I am currently working on
-                    developing a mobile application called Student Connect
-                    Application (SCApp) with two other friends to help
-                    university students build connections based on their
-                    interests and culture.
+                    and Tailwind.
                 </p>
             </div>
         </div>
