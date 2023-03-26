@@ -20,7 +20,7 @@ const About = () => {
                     pursuing my BSc in Computer Engineering (Co-op) at the
                     University of Alberta.
                 </p>
-                <br />
+                {/* <br />
                 <p className="text-xl">
                     Throughout my studies, I have gained extensive knowledge and
                     experience in a range of software development technologies,
@@ -28,7 +28,7 @@ const About = () => {
                     Android Studio; backend development with Node, Express,
                     Django, SQL and MongoDB; and software testing using Pytest,
                     Unittest, and JUnit.
-                </p>
+                </p> */}
                 <br />
                 <p className="text-xl">
                     I have worked on a number of projects that showcase my
