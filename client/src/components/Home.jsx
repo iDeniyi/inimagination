@@ -4,6 +4,7 @@ import { IoRocket } from "react-icons/io5";
 const Home = () => {
     return (
         <div
+            id="home"
             name="home"
             className="h-screen w-full bg-gradient-to-b from-black to-gray-500"
         >
