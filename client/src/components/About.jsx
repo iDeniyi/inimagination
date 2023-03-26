@@ -13,14 +13,14 @@ const About = () => {
                         About Me
                     </p>
                 </div>
-                <p className="text-xl mt-20">
+                <p className="text-xl mt-5">
                     Welcome to the inimagination! My name is Inioluwa Adeniyi,
                     and I am a passionate computer engineering student with a
                     strong focus on software development. I am currently
                     pursuing my BSc in Computer Engineering (Co-op) at the
                     University of Alberta.
                 </p>
-                {/* <br />
+                <br />
                 <p className="text-xl">
                     Throughout my studies, I have gained extensive knowledge and
                     experience in a range of software development technologies,
@@ -28,7 +28,7 @@ const About = () => {
                     Android Studio; backend development with Node, Express,
                     Django, SQL and MongoDB; and software testing using Pytest,
                     Unittest, and JUnit.
-                </p> */}
+                </p>
                 <br />
                 <p className="text-xl">
                     I have worked on a number of projects that showcase my
