@@ -1,5 +1,6 @@
 import React from "react";
 import inimagination from "../assets/inimagination.png";
+import rawgClone from "../assets/rawg-clone.png";
 
 const Portfolio = () => {
     const projects = [
@@ -7,6 +8,11 @@ const Portfolio = () => {
             id: 1,
             src: inimagination,
             link: "https://github.com/iDeniyi/inimagination",
+        },
+        {
+            id: 2,
+            src: rawgClone,
+            link: "https://github.com/iDeniyi/rawg-clone",
         },
     ];
 
