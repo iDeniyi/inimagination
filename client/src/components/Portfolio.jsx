@@ -7,12 +7,14 @@ const Portfolio = () => {
         {
             id: 1,
             src: inimagination,
-            link: "https://github.com/iDeniyi/inimagination",
+            link: "https://inimagination.netlify.app",
+            code_link: "https://github.com/iDeniyi/inimagination",
         },
         {
             id: 2,
             src: rawgClone,
-            link: "https://github.com/iDeniyi/rawg-clone",
+            link: "https://my-rawg-clone.netlify.app",
+            code_link: "https://github.com/iDeniyi/rawg-clone",
         },
     ];
 
@@ -30,20 +32,23 @@ const Portfolio = () => {
                     <p className="py-5">Here are some of my projects...</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {projects.map(({ id, src, link }) => (
+                    {projects.map(({ id, src, link, code_link }) => (
                         <div
                             key={id}
                             className="shadow-md shadow-gray-600 rounded-lg"
                         >
-                            <img
-                                src={src}
-                                alt=""
-                                className="rounded-md duraition-200 hover:scale-105"
-                            />
+                            <a href={link} target="_blank">
+                                <img
+                                    src={src}
+                                    alt=""
+                                    className="rounded-md duraition-200 hover:scale-105"
+                                />
+                            </a>
+
                             <div className="flex items-center justify-center">
                                 <button className="py-3">
                                     <a
-                                        href={link}
+                                        href={code_link}
                                         className="flex justify-between items-center w-full text-white"
                                         target="_blank"
                                         rel="noreferrer"
