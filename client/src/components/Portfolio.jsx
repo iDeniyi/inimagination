@@ -37,7 +37,7 @@ const Portfolio = () => {
                             key={id}
                             className="shadow-md shadow-gray-600 rounded-lg"
                         >
-                            <a href={link} target="_blank">
+                            <a href={link} target="_blank" rel="noreferrer">
                                 <img
                                     src={src}
                                     alt=""
